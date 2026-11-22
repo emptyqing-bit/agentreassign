@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentreassign"
+version = "0.1.0"
+description = "Algorithms for dynamic task re-allocation under disruptions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["multi-agent-systems", "task-allocation", "reassignment", "simulation"]
+
+[tool.setuptools.packages.find]
+include = ["agentreassign*"]
